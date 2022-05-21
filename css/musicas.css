@@ -1,0 +1,56 @@
+@import url(estilo.css);
+
+#interface{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+nav#menu{
+    position: relative;
+}
+
+h1{
+    text-align: center;
+}
+
+.musicas{
+    display: flex;
+    margin-bottom: 10px;
+    width: 560px;
+    height: auto;
+    flex-direction: column;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.musicas h1{
+    text-align: left;
+    border-left: 15px solid red;
+    padding-left: 10px;
+}
+
+.musicas audio{
+    align-self: center;
+}
+
+.musicas p{
+    margin: 0;
+    align-self: center;
+    text-align: justify;
+}
+
+.musicas blockquote{
+    color: white;
+    background-color: #EF3E36;
+    padding: 10px;
+    border: 2px solid rgba(0,0,0,0.8);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.musicas abbr{
+    text-decoration: none;
+}

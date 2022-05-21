@@ -1,0 +1,44 @@
+@import url(estilo.css);
+
+body{
+    width: auto;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+h1{
+    color: greenyellow;
+}
+
+#presente{
+    align-self: flex-end;
+    text-decoration: none;
+    opacity: 0;
+    font-size: 10pt;
+}
+
+#presente:hover{
+    opacity: 1;
+}
+
+bdo{
+    font-weight: bolder;
+    font-size: 35pt;
+    text-align: center;
+}
+
+#dica{
+    opacity: 0;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 10pt;
+    text-align: center;
+}
+
+#dica:hover{
+    opacity: 1;
+}

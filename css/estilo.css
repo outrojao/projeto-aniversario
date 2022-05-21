@@ -1,0 +1,192 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Akshar', sans-serif;
+    background-color: #FFEAEC;
+}
+
+#interface{
+    margin: 10px;
+}
+
+#cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+#titulos{
+    align-self: flex-start;
+    width: 30%;
+    margin-top: 90px;
+    border-radius: 4px 24px;
+    box-shadow: 5px 5px black;
+    background: red;
+    /* background: #424B54; */
+}
+
+#titulos h1, h2{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+#titulos h2{
+    text-decoration: underline wavy #a7f0ff;
+}
+
+#titulos a{
+    color: white;
+    text-decoration: underline wavy #a7f0ff;
+}
+
+#desenho{
+    align-self: flex-start;
+    margin-left: 50px;
+    /*filter: drop-shadow(0 0 3px #000);*/
+}
+
+/* #data{
+  color: palevioletred;
+  font-size: 40px;
+} */
+
+nav#menu{
+    display: block;
+    position: sticky;
+    top: 10px;
+    left: 790px;
+    width: 550px;
+    /* border: 5px solid pink; */
+}
+
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    /* position: fixed; */
+}
+
+nav#menu li{
+    display: inline-block;
+    background-color: #F39A9D;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+
+nav#menu li:hover {
+    background-color: #EF3E36;
+}
+
+nav#menu li:hover a{
+    color: white;
+}
+
+nav#menu h1{
+    display: none;
+}
+
+nav#menu a{
+    color: #000000;
+    text-decoration: none;
+}
+
+header#cabecalho-caixa{
+    align-self: flex-start;
+    margin: 0;
+    height: auto;
+    border-left: 20px solid red;
+    padding-left: 10px;
+}
+
+#texto01{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    width: auto;
+    height: auto;
+    color: white;
+    background-color: #333;
+    overflow: hidden;
+    filter: drop-shadow(0 0 3px #000);
+}
+
+#texto01 h2{
+    font-size: 30px;
+}
+
+/* #texto01:hover{
+    overflow-y: scroll;
+}
+
+#texto01::-webkit-scrollbar{
+    background: #161616;
+}
+
+#texto01::-webkit-scrollbar-thumb{
+    background: #301A4B;
+    border-radius: 10px;
+    height: 10px;
+} */
+
+span#infelicidade{
+    color: white;
+    text-decoration: line-through red;
+}
+
+/* aside{
+    display: block;
+    float: right;
+    border: 10px solid #EF3E36;
+    top: 100px;
+} */
+
+p{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+#caixa01{
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+#mensagem01{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    font-size: 20px;
+}
+
+#voltatopo{
+    align-self: flex-end;
+    background-color: white;
+    border-radius: 20px;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #EF3E36;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-button{
+    background: white;
+}
