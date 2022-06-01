@@ -11,9 +11,11 @@
     <script>
         alert('Todas as pistas estão aqui, procure de TODAS AS FORMAS')
         var senha = prompt('Insira a senha aqui:')
-        if(senha == '(x²+y²-1)³=x²y³'){
+        if(senha == '(x²+y²-1)³ =x²y³' || senha == '(x²+y²-1)³=x²y³'){
             open("presente.html")
-        }else{
+        }else if (senha == '' || senha == null ){
+            alert('O campo está vazio, ache a senha')
+        } else {
             alert('Errado')
         }
     </script>
