@@ -8,7 +8,7 @@
 
 nav#menu{
     position: static;
-    left: -37px;
+    left: 790px;
 }
 
 h1#musica-titulo{
@@ -31,7 +31,6 @@ h1#musica-titulo{
     color: white;
     padding: 10px;
     border-radius: 10px;
-    margin: 0;
 }
 
 .musicas h1{
