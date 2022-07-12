@@ -72,10 +72,10 @@
     gap: 10px;
     background-color: #dc143c;
     padding: 10px;
-    margin: 0;
     width: 25rem;
     border-radius: 10px;
     box-shadow: 2px 2px 2px black;
+    margin: 0px;
   }
 
   .tecla{
@@ -103,6 +103,7 @@
  border: none;
  border-radius: var(--button_radius);
  background: var(--button_outline_color);
+ margin-bottom: 10px;
 }
 
 .button_top {
