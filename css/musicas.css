@@ -18,19 +18,18 @@ h1#musica-titulo{
     box-shadow: 5px 5px black;
     padding: 20px;
     text-align: center;
-    margin: 0;
 }
 
 .musicas{
     display: flex;
-    margin-bottom: 10px;
-    width: 540px;
+    width: 560px;
     height: auto;
     flex-direction: column;
     background-color: #333;
     color: white;
     padding: 10px;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .musicas h1{
