@@ -7,8 +7,8 @@
 }
 
 nav#menu{
-    position: relative;
-    left: 0;
+    position: static;
+    left: -37px;
 }
 
 h1#musica-titulo{
