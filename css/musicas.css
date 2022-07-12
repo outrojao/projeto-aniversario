@@ -23,7 +23,7 @@ h1#musica-titulo{
 .musicas{
     display: flex;
     margin-bottom: 10px;
-    width: 560px;
+    width: 540px;
     height: auto;
     flex-direction: column;
     background-color: #333;
