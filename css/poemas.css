@@ -73,6 +73,7 @@
     background-color: #dc143c;
     padding: 10px;
     margin: 10px;
+    margin-bottom: 0;
     width: 25rem;
     border-radius: 10px;
     box-shadow: 2px 2px 2px black;
