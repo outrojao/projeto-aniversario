@@ -11,6 +11,11 @@
     margin: 1rem;
   }
 
+  header{
+    padding: 0;
+    margin: 0;
+  }
+
   h1{
     background-color: red;
     color: white;
