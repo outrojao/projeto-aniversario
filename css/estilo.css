@@ -62,7 +62,8 @@ body{
 nav#menu{
     display: block;
     position: sticky;
-    top: 0px;
+    top: 0;
+    margin: 0;
     left: 50rem;
     width: 550px;
     /* border: 5px solid pink; */
